@@ -1,0 +1,39 @@
+dependencies:
+- name: kubevirt-operator
+  repository: file://dependency_charts/kubevirt-operator
+  version: 0.2.1
+- name: kubevirt
+  repository: file://dependency_charts/kubevirt
+  version: 0.1.0
+- name: harvester-network-controller
+  repository: https://charts.harvesterhci.io
+  version: 0.5.1
+- name: harvester-networkfs-manager
+  repository: https://charts.harvesterhci.io
+  version: 0.1.0
+- name: harvester-node-disk-manager
+  repository: https://charts.harvesterhci.io
+  version: 0.7.7
+- name: csi-snapshotter
+  repository: file://dependency_charts/csi-snapshotter
+  version: 0.2.0
+- name: longhorn
+  repository: https://charts.longhorn.io
+  version: 1.7.2
+- name: kube-vip
+  repository: https://kube-vip.github.io/helm-charts
+  version: 0.6.1
+- name: harvester-load-balancer
+  repository: https://charts.harvesterhci.io
+  version: 0.4.0
+- name: whereabouts
+  repository: file://dependency_charts/whereabouts
+  version: 0.1.1
+- name: harvester-node-manager
+  repository: https://charts.harvesterhci.io
+  version: 0.3.2
+- name: snapshot-validation-webhook
+  repository: file://dependency_charts/snapshot-validation-webhook
+  version: 0.2.0
+digest: sha256:c52e417b2e4400cef102e28730eb9779f9f3b2a0514e27050b2a23c69a057837
+generated: "2024-11-01T15:14:40.154998791+08:00"
